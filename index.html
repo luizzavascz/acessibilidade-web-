@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minas Tênis Clube de Vôlei</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Menu de Acessibilidade -->
+    <div class="menu-acessibilidade">
+        <button id="botao-acessibilidade" aria-label="Abrir menu de acessibilidade" aria-expanded="false">
+            ♿
+        </button>
+        <div id="opcoes-acessibilidade" class="opcoes-acessibilidade">
+            <button id="aumentar-fonte">Aumentar Fonte</button>
+            <button id="diminuir-fonte">Diminuir Fonte</button>
+            <button id="alterna-contraste">Alto Contraste</button>
+        </div>
+    </div>
+
+    <!-- Cabeçalho -->
+    <header class="site-header">
+        <nav class="nav-principal">
+            <h1>Minas Tênis Clube 🏐</h1>
+            <ul class="nav-links">
+                <li><a href="#historia">História</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>O Orgulho de Belo Horizonte 💙</h2>
+            <p class="tagline">Tradição, conquistas e amor pelo voleibol.</p>
+            <a href="#historia" class="btn-cta">Saiba Mais</a>
+        </div>
+        <div class="hero-figure">
+            <img src="minas.png" alt="Equipe de vôlei do Minas Tênis Clube">
+        </div>
+    </section>
+
+    <!-- História -->
+    <section id="historia" class="section fofinha">
+        <h2>História do Minas 💙🏐</h2>
+        <p>
+            O Minas Tênis Clube é um dos clubes mais tradicionais do Brasil, com sede em Belo Horizonte, Minas Gerais.
+            Fundado em 1935, nasceu com o propósito de promover esporte, cultura e lazer. Desde então, tornou-se
+            referência
+            em diversas modalidades, mas no voleibol construiu uma história especialmente brilhante.
+        </p>
+        <p>
+            As equipes de vôlei, tanto no masculino quanto no feminino, carregam uma tradição de dedicação e vitórias.
+            Ao longo das décadas, o clube revelou talentos que representaram o Brasil em competições internacionais
+            e se consolidou como potência da Superliga Brasileira. Cada jogo do Minas é um espetáculo de garra,
+            união e paixão pelo esporte.
+        </p>
+
+        <!-- Linha do tempo fofinha -->
+        <div class="timeline">
+            <h3>🏆 Linha do Tempo de Conquistas</h3>
+            <ul>
+                <li><span>1984</span> – Primeiro título da Superliga Masculina</li>
+                <li><span>1992</span> – Minas conquista destaque nacional no feminino</li>
+                <li><span>2002</span> – Celeiro de craques: revelação de estrelas do vôlei</li>
+                <li><span>2016</span> – Equipe feminina campeã da Superliga</li>
+                <li><span>2018</span> – Minas conquista títulos consecutivos na base</li>
+                <li><span>2020</span> – Presença forte em torneios internacionais</li>
+                <li><span>2022</span> – Minas feminino campeão da Superliga novamente 💙</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="section">
+        <h2>Galeria</h2>
+        <div class="grid-galeria">
+            <figure>
+                <img src="torcida.png" alt="Torcida do Minas vibrando">
+                <figcaption>equipe se reunindo e comemorando</figcaption>
+            </figure>
+            <figure>
+                <img src="titulo.png" alt="Equipe do Minas levantando troféu">
+                <figcaption>Conquista histórica da Superliga.</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section">
+        <h2>Contato</h2>
+        <form class="formulario">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="site-footer">
+        <p>&copy; 2025 - Site sobre o Minas Tênis Clube de Vôlei | Desenvolvido com 💙</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
