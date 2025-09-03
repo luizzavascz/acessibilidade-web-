@@ -17,7 +17,9 @@ body {
     transition: all .3s ease;
 }
 
-h1,
+h1  {
+color: var(--alto-contraste-fundo);
+    
 h2,
 h3 {
     color: var(--cor-detalhe);
@@ -199,4 +201,5 @@ h3 {
 .alto-contraste {
     background-color: var(--alto-contraste-fundo) !important;
     color: var(--alto-contraste-texto) !important;
+
 }
